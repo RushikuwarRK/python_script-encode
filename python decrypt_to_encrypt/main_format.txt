@@ -1,0 +1,8 @@
+import base64
+import all packeage 
+
+
+encoded_code = ''' this area paste encoded_code text data'''
+
+decoded_code = base64.b64decode(encoded_code).decode('utf-8')
+exec(decoded_code)
